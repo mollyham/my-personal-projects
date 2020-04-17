@@ -37,11 +37,10 @@
     flex: 1;
     padding: 15 px;
     width: 8%;
-    /* background-color: white; */
     border: 10px;
     text-overflow: inherit;
-
   }
+
 
   article {
     -webkit-flex: 3;
@@ -128,7 +127,7 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0;}
 
-    }
+    
       .navbar a:hover, .dropdown:hover .dropbtn {
         background-color: rgb(3, 82, 85);
       }
@@ -195,7 +194,6 @@
         text-transform: none;
       }
       .button1 { 
-        -webkit-writing-mode: horizontal-tb;
         color:wheat;
         letter-spacing: normal;
         text-indent: 0px;
