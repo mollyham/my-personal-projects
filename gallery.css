@@ -1,0 +1,24 @@
+div.gallery {
+
+    border: 10px solid rgb(14, 13, 13);
+    float: left;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(22, 22, 22);
+  }
+
+  div.desc {
+    
+    text-align: center;
+    columns: #f1f1f1;
+  }
+ .container {
+padding: 50px;
+margin: auto;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: end  ;
+ }
+ 

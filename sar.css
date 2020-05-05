@@ -6,16 +6,23 @@
     font-family: Arial, Helvetica, sans-serif;
     scroll-padding: 0;
     background-color: rgb(253, 253, 253);
+    /* display: flex; */
+  }
 
-
+  .dropdown{
+    text-align: left;
+  }
+  .dropbtn{
+    align-content: flex-start;
   }
 
   header {
-    background-color: rgb(18, 89, 122);
+    background-color: rgb(61, 231, 132)
     padding-top: 15px;
     text-align: center;
     font-size: 20px;
     color: black;
+    
   }
     * {
       box-sizing: border-box;
@@ -27,7 +34,7 @@
   }
   section {
     display: -webkit-flex;
-    display: flex;
+    /* display: flex; */
   }
 
 
@@ -41,21 +48,31 @@
     text-overflow: inherit;
   }
 
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
 
+  #box-1 {
+    background-color: rgb(138, 54, 43);
+    height: 200px;
+    flex: 1 1 150px;
+  }
   article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
     padding: 50px;
+    justify-content: center;
   }
   h2{
     color: white;
   }
   h1{
-    color:white;
+    color:black;
   }
   h4 {
-  color: white;
+  color:black;
   }
   article {
     text-align: inherit;
@@ -66,24 +83,34 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
   }
+  article li
+  { font-size: medium;
+    
 
-  .Aboutme-text {
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: 200px;
-    padding-right: 40px;
-    padding-left: 20px;
-    padding: 10px;
+  }
+  
+.aboutsar{ 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: medium;
+  font-weight: 200px;
+  padding-right: 170px;
+  padding-left: 20px;
+   padding: 10px;
+}
+.aboutsar h4{
+  font: 40px;
+}
+  .getintouch{
+    color:maroon;
   }
 
-  footer {
-    background-color: rgb(167, 169, 175);;
-    padding: 10px;
+  footer {background-color: rgb(18, 89, 122);
+    padding-top: 15px;
     text-align: center;
-    color: black;
+    font-size: 20px;
+    color:black;
   }
-
   .back-button {
     background-color: rgb(235, 133, 213);
     border: none;
@@ -96,8 +123,6 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 4px;
-
-
   }
   .navbar {
     overflow: hidden;
@@ -190,6 +215,12 @@
         inline-size: 1;
         font-size: inherit;
       }
+      .search{
+        display: grid;
+        position: absolute;
+       right: 200px;
+       bottom: 10px;
+      }
       .button1, select {
         text-transform: none;
       }
@@ -203,7 +234,7 @@
       
       }
       .about{
-          color: rgb(246, 248, 248);
+          color: rgb(128, 26, 13);
           padding: 15px 32px;
           text-align: center;
           text-decoration: none;
@@ -211,5 +242,51 @@
           font-size: 15px;
           border-radius: 15%;
         }
+        .leader{
+          color: rgb(128, 26, 13);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          border-radius: 15%;
+          background-color: aqua;
+        }
+        .Interests{
+          color: rgb(128, 26, 13);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          border-radius: 15%;
+          background-color: aqua;
+        }
+        .Trainings{
+          color: rgb(128, 26, 13);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          border-radius: 15%;
+          background-color: aqua;
+        }
 
-      
+
+        .d1{background:LightSkyBlue
+          ;
+          height: 200px;
+          flex: 1 1 150px;
+          grid-template-rows:40px;
+        }
+        .d2{background:LightSalmon;
+          height: 200px;
+          flex: 1 1 150px;
+          grid-template-rows:40px;
+        }
+        .d3{background:PaleTurquoise;
+          height: 200px;
+          flex: 1 1 150px;
+          grid-template-rows:40px;
+        }
